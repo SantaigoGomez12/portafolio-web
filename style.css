@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    padding: 15rem;
+    padding-top: 3rem;
+}
+.body {
+    background-color: transparent;
+}
+header {
+    background-color: #444;
+    padding: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+header> img {
+    height: 10rem;
+    width: 13rem;
+}
+main {
+    margin-top: 2rem;
+}
+.main-contenido img{
+    width: 100%;
+    height: 60rem;
+}
+.compras img {
+    width: 5rem;
+    height: 5rem;
+    margin-left: 1rem;
+}
+nav img {
+    width: 5rem;
+    height: 5rem;
+    margin-left: 1rem;
+}
