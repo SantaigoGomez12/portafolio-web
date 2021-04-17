@@ -10,6 +10,7 @@ html {
 }
 :root {
     --color-f: rgba(168, 155, 155, 0.76);
+    --logo: 3.2rem;
 }
 body {
     background-color: rgba(24, 24, 24, 0.911);
@@ -25,25 +26,25 @@ header {
     align-items: center;
 }
 .h-contenedor picture img{
-    height: 2.5rem;
-    width: 2.5rem;
+    height: var(--logo);
+    width: var(--logo);
     margin: 1rem;
 }
 .h-contenedor nav picture img{
-    height: 2.5rem;
-    width: 2.5rem;
+    height: var(--logo);
+    width: var(--logo);
     margin: 1rem;
 }
     /* Slide contnet */
 .contenedor-slide {
     background-color: rgb(58, 56, 53);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .contenedor-slide picture img {
     height: 5.6rem;
     width: 5.6rem;
-    margin: 1rem;
+    margin: 1rem 4rem;
     border: rgb(180, 25, 77) solid ;
     border-radius: 50%;
 }
@@ -55,7 +56,7 @@ main {
 }
 main .promos {
     width: 100vw;
-    padding: 1rem;
+    padding: 1rem 4.5rem;
 }
 main .promos h1 {
     text-align: center;
@@ -70,7 +71,7 @@ main .promos .img-sec {
 }
 main .promos .img-sec img {
     width: 100%;
-    height: 30rem;
+    height: 55rem;
 }
 main .promos picture {
     margin-bottom: 1rem;
@@ -101,6 +102,7 @@ main .promos picture img {
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* Fotter */
 footer {
     background-color: var(--color-f);
@@ -112,8 +114,8 @@ footer {
     align-items: center;
 }
 .footer nav li a img {
-    width: 2rem;
-    height: 2rem;
+    width: var(--logo);
+    height: var(--logo);
     margin: 0 2rem;
 }
 .footer nav li {

@@ -1,30 +1,155 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>IdeArte</title>
-</head>
-<body background="https://wallpaperaccess.com/full/210526.jpg">
-    <div class="body">
-        <header>
-            <nav>
-                <img src="https://cdn.icon-icons.com/icons2/1149/PNG/512/1486504328-bullet-list-menu-lines-points-items-options_81334.png" alt="">
-            </nav>
-            <img src="https://idearte.cl/wp-content/uploads/2020/03/Logo-Idearte-350x.png" alt="">
-            <div class="compras">
-                <img src="https://cdn.icon-icons.com/icons2/1077/PNG/512/shoppingcart_77968.png" alt="">
-                <img src="https://cdn.icon-icons.com/icons2/20/PNG/128/business_application_addmale_useradd_insert_add_user_client_2312.png" alt="">
-            </div>
-        </header>
-        <main>
-            <div class="main-contenido">
-                <img src="https://ae01.alicdn.com/kf/Hb9884c969fd3435c9929b5b4712eb7ba7.jpg_q50.jpg" alt="">
-            </div>
-        </main>
-        <footer></footer>
-    </div>
-</body>
+<!DOCTYPE html> 
+<html lang="es"> 
+  <link> 
+    <meta charset="UTF-8" /> 
+    <meta name="description" content="descripción-imagen" /> 
+    <meta name="robots" content="index,follow" /> 
+    <title>IdeArte</title> 
+    <link rel="stylesheet" href="./style.css" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <link rel="stylesheet" media="screen and (min-width: 550px)" href="./tablet.css" />
+    <link rel="stylesheet" media="screen and (min-width: 800px)" href="./desktop.css" />
+    <link rel="shortcut icon" href="./logo-head.png">
+  </head>
+  <body> 
+    <header> 
+        <div class="h-contenedor">
+            <picture>
+                <source media="(min-width:1300px)" srcset="./logo-head.png" />
+                <source media="(min-width:1000px)" srcset="./logo-head.png" />
+                <img src="./logo-head.png" alt="Esuna imágen de ejemplo"/>
+            </picture>
+          <nav>
+            <picture>
+              <source media="(min-width:1300px)" srcset="./casa.png" />
+              <source media="(min-width:1000px)" srcset="./casa.png" />
+              <a href=""><img src="./casa.png" alt="Esuna imágen de ejemplo"/></a>
+            </picture>
+          <picture>
+            <source media="(min-width:1300px)" srcset="./chat.png" />
+            <source media="(min-width:1000px)" srcset="./chat.png" />
+            <a href=""><img src="./chat.png" alt="Esuna imágen de ejemplo"/></a>
+          </picture>
+        <picture>
+          <source media="(min-width:1300px)" srcset="./lupa.png" />
+          <source media="(min-width:1000px)" srcset="./lupa.png" />
+          <a href=""><img src="./lupa.png" alt="Esuna imágen de ejemplo"/></a>
+      </picture>
+          </nav>     
+        </div>
+        <!-- <div class="contenedor-slide">
+          <picture>
+              <source media="(min-width:1300px)" srcset="./abstracto.jpg" />
+              <source media="(min-width:1000px)" srcset="./abstracto.jpg" />
+              <img src="./abstracto.jpg" alt="Esuna imágen de ejemplo"/>
+           </picture>
+            <picture>
+              <source media="(min-width:1300px)" srcset="./arbol.jpg" />
+              <source media="(min-width:1000px)" srcset="./arbol.jpg" />
+              <img src="./arbol.jpg" alt="Esuna imágen de ejemplo"/>
+            </picture>
+            <picture>
+              <source media="(min-width:1300px)" srcset="./flores.jpg" />
+              <source media="(min-width:1000px)" srcset="./flores.jpg" />
+              <img src="./flores.jpg" alt="Esuna imágen de ejemplo"/>
+         </picture>
+           <picture>
+              <source media="(min-width:1300px)" srcset="./elefantes.jpg" />
+              <source media="(min-width:1000px)" srcset="./elefantes.jpg" />
+              <img src="./elefantes.jpg" alt="Esuna imágen de ejemplo"/>
+          </picture>
+        </div> -->
+    </header>
+    <main> 
+      <div class="contenedor-slide">
+        <picture>
+            <source media="(min-width:1300px)" srcset="./abstracto.jpg" />
+            <source media="(min-width:1000px)" srcset="./abstracto.jpg" />
+            <img src="./abstracto.jpg" alt="Esuna imágen de ejemplo"/>
+         </picture>
+          <picture>
+            <source media="(min-width:1300px)" srcset="./arbol.jpg" />
+            <source media="(min-width:1000px)" srcset="./arbol.jpg" />
+            <img src="./arbol.jpg" alt="Esuna imágen de ejemplo"/>
+          </picture>
+          <picture>
+            <source media="(min-width:1300px)" srcset="./flores.jpg" />
+            <source media="(min-width:1000px)" srcset="./flores.jpg" />
+            <img src="./flores.jpg" alt="Esuna imágen de ejemplo"/>
+       </picture>
+         <picture>
+            <source media="(min-width:1300px)" srcset="./elefantes.jpg" />
+            <source media="(min-width:1000px)" srcset="./elefantes.jpg" />
+            <img src="./elefantes.jpg" alt="Esuna imágen de ejemplo"/>
+        </picture>
+      </div>
+      <section class="promos">
+<div class="boc">
+  <picture>
+    <source media="(min-width:1300px)" srcset="./elefantes.jpg" />
+    <source media="(min-width:1000px)" srcset="./elefantes.jpg" />
+    <img src="./elefantes.jpg" alt="Esuna imágen de ejemplo"/>
+    <h3>Promociones del momento 50%</h3>
+</picture>
+<div class="img-sec">
+  <img src="./elefantes.jpg" alt="">
+</div>
+<div class="descrip">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sed modi at animi incidunt distinctio quidem qui quas. Culpa veniam voluptas, error vero quaerat accusamus ratione explicabo dicta aut est?</p>
+</div>
+</div>
+<div class="boc">
+  <picture>
+    <source media="(min-width:1300px)" srcset="./elefantes.jpg" />
+    <source media="(min-width:1000px)" srcset="./elefantes.jpg" />
+    <img src="./elefantes.jpg" alt="Esuna imágen de ejemplo"/>
+    <h3>Promociones del momento 50%</h3>
+</picture>
+<div class="img-sec">
+  <img src="./abstracto.jpg" alt="">
+</div>
+<div class="descrip">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sed modi at animi incidunt distinctio quidem qui quas. Culpa veniam voluptas, error vero quaerat accusamus ratione explicabo dicta aut est?</p>
+</div>
+</div>
+<div class="boc">
+  <picture>
+    <source media="(min-width:1300px)" srcset="./elefantes.jpg" />
+    <source media="(min-width:1000px)" srcset="./elefantes.jpg" />
+    <img src="./elefantes.jpg" alt="Esuna imágen de ejemplo"/>
+    <h3>Promociones del momento 50%</h3>
+</picture>
+<div class="img-sec">
+  <img src="./arbol.jpg" alt="">
+</div>
+<div class="descrip">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sed modi at animi incidunt distinctio quidem qui quas. Culpa veniam voluptas, error vero quaerat accusamus ratione explicabo dicta aut est?</p>
+</div>
+</div>
+<div class="boc">
+  <picture>
+    <source media="(min-width:1300px)" srcset="./elefantes.jpg" />
+    <source media="(min-width:1000px)" srcset="./elefantes.jpg" />
+    <img src="./elefantes.jpg" alt="Esuna imágen de ejemplo"/>
+    <h3>Promociones del momento 50%</h3>
+</picture>
+<div class="img-sec">
+  <img src="./flores.jpg" alt="">
+</div>
+<div class="descrip">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sed modi at animi incidunt distinctio quidem qui quas. Culpa veniam voluptas, error vero quaerat accusamus ratione explicabo dicta aut est?</p>
+</div>
+</div>
+      </section> 
+    </main>
+    <footer> 
+      <div class="footer">
+        <nav>
+          <li><a href=""><img src="./casa.png" alt=""></a></li>
+          <li><a href=""><img src="./lupa.png" alt=""></a></li>
+          <li><a href=""><img src="./chat.png" alt=""></a></li>
+        </nav>
+      </div>
+    </footer>
+   </body>
 </html>

@@ -10,6 +10,7 @@ html {
 }
 :root {
     --color-f: rgba(168, 155, 155, 0.76);
+    --logo: 5rem;
 }
 body {
     background-color: rgba(24, 24, 24, 0.911);
@@ -17,6 +18,7 @@ body {
 
 /* Header */
 header {
+    border-radius: 1rem;
     background-color: var(--color-f);
 }
 .h-contenedor {
@@ -25,37 +27,46 @@ header {
     align-items: center;
 }
 .h-contenedor picture img{
-    height: 2.5rem;
-    width: 2.5rem;
+    height: var(--logo);
+    width: var(--logo);
     margin: 1rem;
 }
 .h-contenedor nav picture img{
-    height: 2.5rem;
-    width: 2.5rem;
+    height: var(--logo);
+    width: var(--logo);
     margin: 1rem;
 }
     /* Slide contnet */
 .contenedor-slide {
+    border-radius: 1rem;
     background-color: rgb(58, 56, 53);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 15vw;
 }
 .contenedor-slide picture img {
-    height: 5.6rem;
-    width: 5.6rem;
-    margin: 1rem;
-    border: rgb(180, 25, 77) solid ;
+    height: 15rem;
+    width: 15rem;
+    margin: 5rem 0rem;
+    border: solid 0.5rem;
+    border-color: #d6249f;
+    border-color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);;
     border-radius: 50%;
 }
 /* Pomociones */
 main {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 main .promos {
-    width: 100vw;
-    padding: 1rem;
+    width: 85vw;
+    padding: 0rem 0rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 main .promos h1 {
     text-align: center;
@@ -70,7 +81,7 @@ main .promos .img-sec {
 }
 main .promos .img-sec img {
     width: 100%;
-    height: 30rem;
+    height: 40rem;
 }
 main .promos picture {
     margin-bottom: 1rem;
@@ -101,6 +112,7 @@ main .promos picture img {
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* Fotter */
 footer {
     background-color: var(--color-f);
@@ -112,10 +124,15 @@ footer {
     align-items: center;
 }
 .footer nav li a img {
-    width: 2rem;
-    height: 2rem;
+    width: var(--logo);
+    height: var(--logo);
     margin: 0 2rem;
 }
 .footer nav li {
     display: inline-block;
+}
+.boc {
+ margin: 1rem 3rem;
+ margin-bottom: 2rem;
+ width: 40%;
 }
