@@ -15,7 +15,7 @@ body {
     background-color: rgba(24, 24, 24, 0.911);
 }
 
-/* Header */
+/* Sección nueva de todo el encabezado para poder organizar CSS */
 header {
     background-color: var(--color-f);
 }
@@ -34,7 +34,7 @@ header {
     width: 2.5rem;
     margin: 1rem;
 }
-    /* Slide contnet */
+/* Nueva sección actulizada de mi slide desade este punto */
 .contenedor-slide {
     background-color: rgb(58, 56, 53);
     display: flex;
