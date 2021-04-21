@@ -1,155 +1,166 @@
 <!DOCTYPE html> 
 <html lang="es"> 
-  <link> 
+  <head> 
     <meta charset="UTF-8" /> 
     <meta name="description" content="descripción-imagen" /> 
     <meta name="robots" content="index,follow" /> 
     <title>IdeArte</title> 
     <link rel="stylesheet" href="./style.css" /> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
-    <link rel="stylesheet" media="screen and (min-width: 550px)" href="./tablet.css" />
-    <link rel="stylesheet" media="screen and (min-width: 800px)" href="./desktop.css" />
-    <link rel="shortcut icon" href="./logo-head.png">
+    <link rel="stylesheet" media="screen and (min-width: 550px)" href="./responsive/tablet.css" />
+    <link rel="stylesheet" media="screen and (min-width: 800px)" href="./responsive/desktop.css" />
+    <link rel="shortcut icon" href="./image/logo-head.png">
   </head>
   <body> 
     <header> 
         <div class="h-contenedor">
+  <!-- Logo pricipal -->
             <picture>
-                <source media="(min-width:1300px)" srcset="./logo-head.png" />
-                <source media="(min-width:1000px)" srcset="./logo-head.png" />
-                <img src="./logo-head.png" alt="Esuna imágen de ejemplo"/>
+                <source media="(min-width:1300px)" srcset="./image/logo-head.png" />
+                <source media="(min-width:1000px)" srcset="./image/logo-head.png" />
+                <img src="./image/logo-head.png" alt="Esuna imágen de ejemplo"/>
             </picture>
+  <!-- Navegador -->
           <nav>
+  <!-- Logos de navegadr 1 -->
             <picture>
-              <source media="(min-width:1300px)" srcset="./casa.png" />
-              <source media="(min-width:1000px)" srcset="./casa.png" />
-              <a href=""><img src="./casa.png" alt="Esuna imágen de ejemplo"/></a>
+              <source media="(min-width:1300px)" srcset="./image/casa.png" />
+              <source media="(min-width:1000px)" srcset="./image/casa.png" />
+              <a href=""><img src="./image/casa.png" alt="Esuna imágen de ejemplo"/></a>
             </picture>
-          <picture>
-            <source media="(min-width:1300px)" srcset="./chat.png" />
-            <source media="(min-width:1000px)" srcset="./chat.png" />
-            <a href=""><img src="./chat.png" alt="Esuna imágen de ejemplo"/></a>
-          </picture>
-        <picture>
-          <source media="(min-width:1300px)" srcset="./lupa.png" />
-          <source media="(min-width:1000px)" srcset="./lupa.png" />
-          <a href=""><img src="./lupa.png" alt="Esuna imágen de ejemplo"/></a>
-      </picture>
-          </nav>     
+  <!-- Logos de navegadr 2 -->
+            <picture>
+              <source media="(min-width:1300px)" srcset="./image/chat.png" />
+              <source media="(min-width:1000px)" srcset="./image/chat.png" />
+              <a href=""><img src="./image/chat.png" alt="Esuna imágen de ejemplo"/></a>
+            </picture>
+  <!-- Logos de navegadr 3 -->
+            <picture>
+              <source media="(min-width:1300px)" srcset="./image/lupa.png" />
+              <source media="(min-width:1000px)" srcset="./image/lupa.png" />
+              <a href=""><img src="./image/lupa.png" alt="Esuna imágen de ejemplo"/></a>
+            </picture>
+          </nav> 
         </div>
-        <!-- <div class="contenedor-slide">
-          <picture>
-              <source media="(min-width:1300px)" srcset="./abstracto.jpg" />
-              <source media="(min-width:1000px)" srcset="./abstracto.jpg" />
-              <img src="./abstracto.jpg" alt="Esuna imágen de ejemplo"/>
-           </picture>
-            <picture>
-              <source media="(min-width:1300px)" srcset="./arbol.jpg" />
-              <source media="(min-width:1000px)" srcset="./arbol.jpg" />
-              <img src="./arbol.jpg" alt="Esuna imágen de ejemplo"/>
-            </picture>
-            <picture>
-              <source media="(min-width:1300px)" srcset="./flores.jpg" />
-              <source media="(min-width:1000px)" srcset="./flores.jpg" />
-              <img src="./flores.jpg" alt="Esuna imágen de ejemplo"/>
-         </picture>
-           <picture>
-              <source media="(min-width:1300px)" srcset="./elefantes.jpg" />
-              <source media="(min-width:1000px)" srcset="./elefantes.jpg" />
-              <img src="./elefantes.jpg" alt="Esuna imágen de ejemplo"/>
-          </picture>
-        </div> -->
     </header>
+  <!-- Contenido pricipal -->
     <main> 
+  <!-- Slide de la izquierda o zona superior -->
       <div class="contenedor-slide">
+      <!-- Cajita 1 -->
         <picture>
-            <source media="(min-width:1300px)" srcset="./abstracto.jpg" />
-            <source media="(min-width:1000px)" srcset="./abstracto.jpg" />
-            <img src="./abstracto.jpg" alt="Esuna imágen de ejemplo"/>
-         </picture>
-          <picture>
-            <source media="(min-width:1300px)" srcset="./arbol.jpg" />
-            <source media="(min-width:1000px)" srcset="./arbol.jpg" />
-            <img src="./arbol.jpg" alt="Esuna imágen de ejemplo"/>
-          </picture>
-          <picture>
-            <source media="(min-width:1300px)" srcset="./flores.jpg" />
-            <source media="(min-width:1000px)" srcset="./flores.jpg" />
-            <img src="./flores.jpg" alt="Esuna imágen de ejemplo"/>
-       </picture>
-         <picture>
-            <source media="(min-width:1300px)" srcset="./elefantes.jpg" />
-            <source media="(min-width:1000px)" srcset="./elefantes.jpg" />
-            <img src="./elefantes.jpg" alt="Esuna imágen de ejemplo"/>
+          <source media="(min-width:1300px)" srcset="./image/abstracto.jpg" />
+          <source media="(min-width:1000px)" srcset="./image/abstracto.jpg" />
+          <img src="./image/abstracto.jpg" alt="Esuna imágen de ejemplo"/>
+        </picture>
+      <!-- Cajita 2 -->
+        <picture>
+          <source media="(min-width:1300px)" srcset="./image/arbol.jpg" />
+          <source media="(min-width:1000px)" srcset="./image/arbol.jpg" />
+          <img src="./image/arbol.jpg" alt="Esuna imágen de ejemplo"/>
+        </picture>
+      <!-- Cajita 3 -->
+        <picture>
+          <source media="(min-width:1300px)" srcset="./image/flores.jpg" />
+          <source media="(min-width:1000px)" srcset="./image/flores.jpg" />
+          <img src="./image/flores.jpg" alt="Esuna imágen de ejemplo"/>
+        </picture>
+      <!-- Cajita 4 -->
+        <picture>
+          <source media="(min-width:1300px)" srcset="image/elefantes.jpg" />
+          <source media="(min-width:1000px)" srcset="image/elefantes.jpg" />
+          <img src="image/elefantes.jpg" alt="Esuna imágen de ejemplo"/>
         </picture>
       </div>
-      <section class="promos">
-<div class="boc">
-  <picture>
-    <source media="(min-width:1300px)" srcset="./elefantes.jpg" />
-    <source media="(min-width:1000px)" srcset="./elefantes.jpg" />
-    <img src="./elefantes.jpg" alt="Esuna imágen de ejemplo"/>
-    <h3>Promociones del momento 50%</h3>
-</picture>
-<div class="img-sec">
-  <img src="./elefantes.jpg" alt="">
-</div>
-<div class="descrip">
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sed modi at animi incidunt distinctio quidem qui quas. Culpa veniam voluptas, error vero quaerat accusamus ratione explicabo dicta aut est?</p>
-</div>
-</div>
-<div class="boc">
-  <picture>
-    <source media="(min-width:1300px)" srcset="./elefantes.jpg" />
-    <source media="(min-width:1000px)" srcset="./elefantes.jpg" />
-    <img src="./elefantes.jpg" alt="Esuna imágen de ejemplo"/>
-    <h3>Promociones del momento 50%</h3>
-</picture>
-<div class="img-sec">
-  <img src="./abstracto.jpg" alt="">
-</div>
-<div class="descrip">
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sed modi at animi incidunt distinctio quidem qui quas. Culpa veniam voluptas, error vero quaerat accusamus ratione explicabo dicta aut est?</p>
-</div>
-</div>
-<div class="boc">
-  <picture>
-    <source media="(min-width:1300px)" srcset="./elefantes.jpg" />
-    <source media="(min-width:1000px)" srcset="./elefantes.jpg" />
-    <img src="./elefantes.jpg" alt="Esuna imágen de ejemplo"/>
-    <h3>Promociones del momento 50%</h3>
-</picture>
-<div class="img-sec">
-  <img src="./arbol.jpg" alt="">
-</div>
-<div class="descrip">
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sed modi at animi incidunt distinctio quidem qui quas. Culpa veniam voluptas, error vero quaerat accusamus ratione explicabo dicta aut est?</p>
-</div>
-</div>
-<div class="boc">
-      <picture>
-        <source media="(min-width:1300px)" srcset="./elefantes.jpg" />
-        <source media="(min-width:1000px)" srcset="./elefantes.jpg" />
-        <img src="./elefantes.jpg" alt="Esuna imágen de ejemplo"/>
-        <h3>Promociones del momento 50%</h3>
-    </picture>
-    <div class="img-sec">
-      <img src="./flores.jpg" alt="">
-    </div>
-    <div class="descrip">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sed modi at animi incidunt distinctio quidem qui quas. Culpa veniam voluptas, error vero quaerat accusamus ratione explicabo dicta aut est?</p>
-    </div>
-    </div>
-      </section> 
+  <!-- Contenedor inicial donde estara cada seccion de compras -->
+      <div class="promos">
+        <!-- Cajitas de compras 1 -->
+        <div class="boc">
+          <!-- imagen descritiva de encabezado -->
+          <picture>
+            <source media="(min-width:1300px)" srcset="image/elefantes.jpg" />
+            <source media="(min-width:1000px)" srcset="image/elefantes.jpg" />
+            <img src="image/elefantes.jpg" alt="Esuna imágen de ejemplo"/>
+            <!-- Descripcion de la imagen -->
+            <h3>Promociones del momento 50%</h3>
+          </picture>
+          <!-- sector de la imagen del cuadro total -->
+          <div class="img-sec">
+            <img src="image/elefantes.jpg" alt="">
+          </div>
+          <!-- Descripcion del contenido -->
+          <div class="descrip">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sed modi at animi incidunt distinctio quidem qui quas. Culpa veniam voluptas, error vero quaerat accusamus ratione explicabo dicta aut est?</p>
+          </div>
+        </div>
+        <!-- Cajitas de compras 2 -->
+        <div class="boc">
+          <!-- imagen descritiva de encabezado -->
+          <picture>
+            <source media="(min-width:1300px)" srcset="image/abstracto.jpg" />
+            <source media="(min-width:1000px)" srcset="image/abstracto.jpg" />
+            <img src="image/abstracto.jpg" alt="Esuna imágen de ejemplo"/>
+            <!-- Descripcion de la imagen -->
+            <h3>Promociones del momento 50%</h3>
+          </picture>
+       <!-- sector de la imagen del cuadro total -->
+          <div class="img-sec">
+            <img src="image/abstracto.jpg" alt="">
+          </div>
+        <!-- Descripcion del contenido -->
+          <div class="descrip">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sed modi at animi incidunt distinctio quidem qui quas. Culpa veniam voluptas, error vero quaerat accusamus ratione explicabo dicta aut est?</p>
+          </div>
+        </div>
+        <!-- Cajitas de compras 3 -->
+        <div class="boc">
+          <!-- imagen descritiva de encabezado -->
+          <picture>
+            <source media="(min-width:1300px)" srcset="image/flores.jpg" />
+            <source media="(min-width:1000px)" srcset="image/flores.jpg" />
+            <img src="image/flores.jpg" alt="Esuna imágen de ejemplo"/>
+            <!-- Descripcion de la imagen -->
+            <h3>Promociones del momento 50%</h3>
+          </picture>
+          <!-- sector de la imagen del cuadro total -->
+          <div class="img-sec">
+            <img src="image/flores.jpg" alt="">
+          </div>
+          <!-- Descripcion del contenido -->
+          <div class="descrip">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sed modi at animi incidunt distinctio quidem qui quas. Culpa veniam voluptas, error vero quaerat accusamus ratione explicabo dicta aut est?</p>
+          </div>
+        </div>
+        <!-- Cajitas de compras 1 -->
+        <div class="boc">
+          <!-- imagen descritiva de encabezado -->
+          <picture>
+            <source media="(min-width:1300px)" srcset="image/arbol.jpg" />
+            <source media="(min-width:1000px)" srcset="image/arbol.jpg" />
+            <img src="image/arbol.jpg" alt="Esuna imágen de ejemplo"/>
+            <!-- Descripcion de la imagen -->
+            <h3>Promociones del momento 50%</h3>
+          </picture>
+          <!-- sector de la imagen del cuadro total -->
+          <div class="img-sec">
+            <img src="image/arbol.jpg" alt="">
+          </div>
+          <!-- Descripcion del contenido -->
+          <div class="descrip">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sed modi at animi incidunt distinctio quidem qui quas. Culpa veniam voluptas, error vero quaerat accusamus ratione explicabo dicta aut est?</p>
+          </div>
+        </div>
+      </div> 
     </main>
+  <!-- Footer o lugar de la parte final -->
     <footer> 
       <div class="footer">
         <nav>
-          <li><a href=""><img src="./casa.png" alt=""></a></li>
-          <li><a href=""><img src="./lupa.png" alt=""></a></li>
-          <li><a href=""><img src="./chat.png" alt=""></a></li>
+          <li><a href=""><img src="./image/casa.png" alt=""></a></li>
+          <li><a href=""><img src="./image/lupa.png" alt=""></a></li>
+          <li><a href=""><img src="./image/chat.png" alt=""></a></li>
         </nav>
       </div>
     </footer>
-   </body>
+  </body> 
 </html>

@@ -1,4 +1,4 @@
-/* Inicial parcticas */
+/* CONTENEDOR MAIN */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -14,8 +14,7 @@ html {
 body {
     background-color: rgba(24, 24, 24, 0.911);
 }
-
-/* Sección nueva de todo el encabezado para poder organizar CSS */
+/* HEADER COMINESO DE ESTE */
 header {
     background-color: var(--color-f);
 }
@@ -24,22 +23,25 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+/* --LOGO DE HEADER */
 .h-contenedor picture img{
     height: 2.5rem;
     width: 2.5rem;
     margin: 1rem;
 }
+/* --NAVEGADORES LAS IMAGENES DE ESTOS */
 .h-contenedor nav picture img{
     height: 2.5rem;
     width: 2.5rem;
     margin: 1rem;
 }
-/* Nueva sección actulizada de mi slide desade este punto */
+/* -SIDEBAR CONTENDORA */
 .contenedor-slide {
     background-color: rgb(58, 56, 53);
     display: flex;
     justify-content: space-between;
 }
+/* --IMAGENES DE SIDE BAR */
 .contenedor-slide picture img {
     height: 5.6rem;
     width: 5.6rem;
@@ -47,7 +49,7 @@ header {
     border: rgb(180, 25, 77) solid ;
     border-radius: 50%;
 }
-/* Pomociones */
+/* -SECCION DE PROMOCIONES */
 main {
     display: flex;
     justify-content: center;
@@ -57,21 +59,25 @@ main .promos {
     width: 100vw;
     padding: 1rem;
 }
-main .promos h1 {
+/* descripcion de la imagen */
+main .promos h3 {
     text-align: center;
     margin: 1rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+/* contendor de las imagenes completas */
 main .promos .img-sec {
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
 }
+/* imagen total del contenido */
 main .promos .img-sec img {
     width: 100%;
     height: 30rem;
 }
+/* contenedor de las imagenes */
 main .promos picture {
     margin-bottom: 1rem;
     border: solid white 0.1rem;
@@ -82,9 +88,7 @@ main .promos picture {
     align-items: center;
     margin-top: 2rem;
 }
-main .promos picture h3 {
-    margin: 1rem;
-}
+/* contenedor de historias */
 main .promos picture img {
     width: 4rem;
     height: 4rem;
@@ -92,6 +96,7 @@ main .promos picture img {
     margin: 0.5rem;
     border: palevioletred solid ;
 }
+/* descirpciones de las cosas */
 .descrip {
     border: solid white 0.1rem;
     border-radius: 0.5rem;

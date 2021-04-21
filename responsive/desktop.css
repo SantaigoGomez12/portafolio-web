@@ -18,8 +18,8 @@ body {
 
 /* Header */
 header {
-    border-radius: 1rem;
     background-color: var(--color-f);
+    border-bottom: solid #444 1rem;
 }
 .h-contenedor {
     display: flex;
@@ -38,13 +38,12 @@ header {
 }
     /* Slide contnet */
 .contenedor-slide {
-    border-radius: 1rem;
     background-color: rgb(58, 56, 53);
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    width: 15vw;
+    width: 20vw;
 }
 .contenedor-slide picture img {
     height: 15rem;
@@ -62,7 +61,7 @@ main {
     flex-direction: row;
 }
 main .promos {
-    width: 85vw;
+    width: 80vw;
     padding: 0rem 0rem;
     justify-content: center;
     display: flex;
