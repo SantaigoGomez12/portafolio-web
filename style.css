@@ -20,7 +20,7 @@ header {
 }
 .h-contenedor {
     display: flex;
-    justify-content: space-between;
+    background-color: green;
     align-items: center;
 }
 /* --LOGO DE HEADER */
