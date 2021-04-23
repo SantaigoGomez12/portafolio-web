@@ -9,17 +9,17 @@ html {
     font-size: 62.5%;
 }
 :root {
-    --color-f: rgba(168, 155, 155, 0.76);
+    --color-f: rgb(72, 177, 72);
     --logo: 5rem;
 }
 body {
-    background-color: rgba(24, 24, 24, 0.911);
+    background-color: rgba(13, 68, 50, 0.911);
 }
 
 /* Header */
 header {
     background-color: var(--color-f);
-    border-bottom: solid #444 1rem;
+    border-bottom: solid green 1rem;
 }
 .h-contenedor {
     display: flex;
@@ -38,7 +38,7 @@ header {
 }
     /* Slide contnet */
 .contenedor-slide {
-    background-color: rgb(58, 56, 53);
+    background-color: rgb(22, 78, 15);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,8 +50,7 @@ header {
     width: 15rem;
     margin: 5rem 0rem;
     border: solid 0.5rem;
-    border-color: #d6249f;
-    border-color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);;
+    border-color: #24d624;
     border-radius: 50%;
 }
 /* Pomociones */
