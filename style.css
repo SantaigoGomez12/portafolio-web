@@ -20,6 +20,7 @@ header {
 }
 .h-contenedor {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
 /* --LOGO DE HEADER */
@@ -42,8 +43,6 @@ header {
 }
 /* --IMAGENES DE SIDE BAR */
 .contenedor-slide picture img {
-    height: 5.6rem;
-    width: 5.6rem;
     margin: 1rem;
     border: rgb(15, 10, 255) solid ;
     border-radius: 50%;
