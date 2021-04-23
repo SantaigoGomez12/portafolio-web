@@ -39,7 +39,7 @@ header {
 .contenedor-slide {
     background-color: rgb(58, 56, 53);
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 /* --IMAGENES DE SIDE BAR */
 .contenedor-slide picture img {

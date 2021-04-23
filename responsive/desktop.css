@@ -23,7 +23,7 @@ header {
 }
 .h-contenedor {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 .h-contenedor picture img{
