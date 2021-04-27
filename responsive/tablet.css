@@ -9,17 +9,10 @@ html {
     font-size: 62.5%;
 }
 :root {
-    --color-f: rgba(168, 155, 155, 0.76);
     --logo: 3.2rem;
-}
-body {
-    background-color: rgba(24, 24, 24, 0.911);
 }
 
 /* Header */
-header {
-    background-color: var(--color-f);
-}
 .h-contenedor {
     display: flex;
     justify-content: space-between;
@@ -37,7 +30,6 @@ header {
 }
     /* Slide contnet */
 .contenedor-slide {
-    background-color: rgb(58, 56, 53);
     display: flex;
     justify-content: center;
 }
@@ -66,7 +58,6 @@ main .promos h1 {
 }
 main .promos .img-sec {
     display: flex;
-    justify-content: center;
     margin-bottom: 1rem;
 }
 main .promos .img-sec img {
@@ -77,14 +68,13 @@ main .promos picture {
     margin-bottom: 1rem;
     border: solid white 0.1rem;
     border-radius: 0.5rem;
+    margin: 0.5rem;
 }
 main .promos picture {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-top: 2rem;
-}
-main .promos picture h3 {
-    margin: 1rem;
 }
 main .promos picture img {
     width: 4rem;
@@ -92,6 +82,7 @@ main .promos picture img {
     border-radius: 50%;
     margin: 0.5rem;
     border: palevioletred solid ;
+    margin-left: 1rem;
 }
 .descrip {
     border: solid white 0.1rem;

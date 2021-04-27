@@ -9,17 +9,11 @@ html {
     font-size: 62.5%;
 }
 :root {
-    --color-f: rgb(72, 177, 72);
     --logo: 5rem;
 }
-body {
-    background-color: rgba(13, 68, 50, 0.911);
-}
-
 /* Header */
 header {
-    background-color: var(--color-f);
-    border-bottom: solid green 1rem;
+    border-bottom: solid rgb(177, 171, 171) 1rem;
 }
 .h-contenedor {
     display: flex;
@@ -38,7 +32,6 @@ header {
 }
     /* Slide contnet */
 .contenedor-slide {
-    background-color: rgb(22, 78, 15);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,7 +43,7 @@ header {
     width: 15rem;
     margin: 5rem 0rem;
     border: solid 0.5rem;
-    border-color: #24d624;
+    border-color: #838383;
     border-radius: 50%;
 }
 /* Pomociones */
@@ -58,6 +51,7 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    border-top: #444444 solid 1rem;
 }
 main .promos {
     width: 80vw;
@@ -74,7 +68,6 @@ main .promos h1 {
 }
 main .promos .img-sec {
     display: flex;
-    justify-content: center;
     margin-bottom: 1rem;
 }
 main .promos .img-sec img {
@@ -91,15 +84,14 @@ main .promos picture {
     align-items: center;
     margin-top: 2rem;
 }
-main .promos picture h3 {
-    margin: 1rem;
-}
 main .promos picture img {
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
-    margin: 0.5rem;
     border: palevioletred solid ;
+}
+main .promos picture a img {
+    margin-right: 2rem;
 }
 .descrip {
     border: solid white 0.1rem;

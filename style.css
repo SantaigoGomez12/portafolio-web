@@ -9,10 +9,10 @@ html {
     font-size: 62.5%;
 }
 :root {
-    --color-f: rgba(168, 155, 155, 0.76);
+    --color-f: #444;
 }
 body {
-    background-color: rgba(24, 24, 24, 0.911);
+    background-color: black;
 }
 /* HEADER COMINESO DE ESTE */
 header {
@@ -46,7 +46,7 @@ header {
     height: 5.6rem;
     width: 5.6rem;
     margin: 1rem;
-    border: rgb(12, 223, 23) solid ;
+    border: pink solid ;
     border-radius: 50%;
 }
 /* -SECCION DE PROMOCIONES */
@@ -61,6 +61,10 @@ main .promos {
 }
 /* descripcion de la imagen */
 main .promos h3 {
+    background-color: rgb(58, 56, 53);
+    padding: 1rem;
+    opacity: 0.7;
+    border-radius: 1rem;
     text-align: center;
     margin: 1rem;
     font-size: 1.2rem;
@@ -69,7 +73,6 @@ main .promos h3 {
 /* contendor de las imagenes completas */
 main .promos .img-sec {
     display: flex;
-    justify-content: center;
     margin-bottom: 1rem;
 }
 /* imagen total del contenido */
@@ -86,6 +89,7 @@ main .promos picture {
 main .promos picture {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     margin-top: 2rem;
 }
 /* contenedor de historias */
@@ -94,7 +98,7 @@ main .promos picture img {
     height: 4rem;
     border-radius: 50%;
     margin: 0.5rem;
-    border: rgb(22, 224, 56) solid ;
+    border: rgb(183, 0, 255) solid ;
 }
 /* descirpciones de las cosas */
 .descrip {
