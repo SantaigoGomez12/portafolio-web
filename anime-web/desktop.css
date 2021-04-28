@@ -40,6 +40,7 @@ header {
 .header-contenedor > picture img{
     width: 7rem;
     height: 7rem;
+    margin: 1rem;
 }
 
 /* -----MAI------- */
@@ -94,15 +95,16 @@ footer {
 }
 .header-footer li a {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
-    color: orange ;
+    color: purple ;
     margin: 0.2rem;
 }
 .header-footer li a::after {
     content: " | ";
 }
 .header-footer > picture img{
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
 }
