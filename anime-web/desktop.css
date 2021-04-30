@@ -52,23 +52,23 @@ main {
     padding: 3rem;
 }
 .carta {
-    background-color: aquamarine;
-    border: solid black 0.5rem;
-    margin: 2rem 0;
-    height: 20rem;
-    display: flex;
-    align-items: center;
+    background-color: black;
+    border: solid rgb(255, 0, 0) 0.5rem;
+    border-radius: 0.5rem;
+    margin: 2rem auto;
+    height: 30rem;
+    width: 80%;
 }
 .carta picture img {
     width: 100%;
 }
 .cartados {
-    background-color: aquamarine;
-    border: solid black 0.5rem;
-    margin: 2rem 0;
-    height: 20rem;
-    display: flex;
-    align-items: center;
+    background-color: black;
+    border: solid rgb(255, 0, 0) 0.5rem;
+    border-radius: 0.5rem;
+    margin: 2rem auto;
+    height: 30rem;
+    width: 80%;
 }
 .cartados picture img {
     width: 100%;

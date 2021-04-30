@@ -52,10 +52,10 @@ main {
     padding: 3rem;
 }
 .carta {
-    background-color: aquamarine;
-    border: solid black 0.5rem;
+    background-color: rgb(0, 0, 0);
+    border: solid rgb(255, 0, 0) 0.5rem;
     margin: 2rem 0;
-    height: 20rem;
+    height: 30rem;
     display: flex;
     align-items: center;
 }
@@ -63,16 +63,16 @@ main {
     width: 100%;
 }
 .cartados {
-    background-color: aquamarine;
-    border: solid black 0.5rem;
+    background-color: rgb(0, 0, 0);
+    border: solid rgb(255, 0, 0) 0.5rem;
     margin: 2rem 0;
-    height: 20rem;
+    height: 30rem;
     display: flex;
     align-items: center;
 }
 .cartados picture img {
     width: 100%;
-    height: 15rem;
+    height: 12rem;
 }
 
 
@@ -97,7 +97,7 @@ footer {
     text-decoration: none;
     font-size: 1rem;
     font-family: 'Times New Roman', Times, serif;
-    color: orange ;
+    color: green ;
     margin: 0.2rem;
 }
 .header-footer li a::after {
