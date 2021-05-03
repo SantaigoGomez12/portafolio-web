@@ -1,3 +1,6 @@
-*.png
-*.jpg
-*.gif
+/imges/*.png
+/image/*.jpg
+/image/*.gif
+/anime-web/images/*.gif
+/anime-web/images/*.png
+/anime-web/images/*.jpg
