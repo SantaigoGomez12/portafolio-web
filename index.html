@@ -1,166 +1,71 @@
-<!DOCTYPE html> 
-<html lang="es"> 
-  <head> 
-    <meta charset="UTF-8" /> 
-    <meta name="description" content="descripción-imagen" /> 
-    <meta name="robots" content="index,follow" /> 
-    <title>IdeArte</title> 
-    <link rel="stylesheet" href="./style.css" /> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
-    <link rel="stylesheet" media="screen and (min-width: 550px)" href="./responsive/tablet.css" />
-    <link rel="stylesheet" media="screen and (min-width: 800px)" href="./responsive/desktop.css" />
-    <link rel="shortcut icon" href="./image/logo-head.png">
-  </head>
-  <body> 
-    <header> 
-        <div class="h-contenedor">
-  <!-- Logo pricipal -->
-            <picture>
-                <source media="(min-width:1300px)" srcset="./image/logo-head.png" />
-                <source media="(min-width:1000px)" srcset="./image/logo-head.png" />
-                <a href="./index.html"><img src="./image/logo-head.png" alt="Esuna imágen de ejemplo"/></a>
-            </picture>
-  <!-- Navegador -->
-          <nav>
-  <!-- Logos de navegadr 1 -->
-            <picture>
-              <source media="(min-width:1300px)" srcset="./image/lupa.png" />
-              <source media="(min-width:1000px)" srcset="./image/lupa.png" />
-              <a href="./google/index.html"><img src="./image/lupa.png" alt="Esuna imágen de ejemplo"/></a>
-            </picture>
-  <!-- Logos de navegadr 2 -->
-            <picture>
-              <source media="(min-width:1300px)" srcset="./image/corazon.png" />
-              <source media="(min-width:1000px)" srcset="./image/corazon.png" />
-              <a href="./anime-web/index.html"><img src="./image/corazon.png" alt="Esuna imágen de ejemplo"/></a>
-            </picture>
-  <!-- Logos de navegadr 3 -->
-            <picture>
-              <source media="(min-width:1300px)" srcset="./image/carrito.png" />
-              <source media="(min-width:1000px)" srcset="./image/carrito.png" />
-              <a href="carrito.html"><img src="./image/carrito.png" alt="Esuna imágen de ejemplo"/></a>
-            </picture>
-          </nav> 
-        </div>
-    </header>
-  <!-- Contenido pricipal -->
-    <main> 
-  <!-- Slide de la izquierda o zona superior -->
-      <div class="contenedor-slide">
-      <!-- Cajita 1 -->
-        <picture>
-          <source media="(min-width:1300px)" srcset="./image/abstracto.jpg" />
-          <source media="(min-width:1000px)" srcset="./image/abstracto.jpg" />
-          <img src="./image/abstracto.jpg" alt="Esuna imágen de ejemplo"/>
-        </picture>
-      <!-- Cajita 2 -->
-        <picture>
-          <source media="(min-width:1300px)" srcset="./image/arbol.jpg" />
-          <source media="(min-width:1000px)" srcset="./image/arbol.jpg" />
-          <img src="./image/arbol.jpg" alt="Esuna imágen de ejemplo"/>
-        </picture>
-      <!-- Cajita 3 -->
-        <picture>
-          <source media="(min-width:1300px)" srcset="./image/flores.jpg" />
-          <source media="(min-width:1000px)" srcset="./image/flores.jpg" />
-          <img src="./image/flores.jpg" alt="Esuna imágen de ejemplo"/>
-        </picture>
-      <!-- Cajita 4 -->
-        <picture>
-          <source media="(min-width:1300px)" srcset="image/elefantes.jpg" />
-          <source media="(min-width:1000px)" srcset="image/elefantes.jpg" />
-          <img src="image/elefantes.jpg" alt="Esuna imágen de ejemplo"/>
-        </picture>
-      </div>
-  <!-- Contenedor inicial donde estara cada seccion de compras -->
-      <div class="promos">
-        <!-- Cajitas de compras 1 -->
-        <div class="boc">
-          <!-- imagen descritiva de encabezado -->
-          <picture>
-            <img src="image/elefantes.jpg" alt="Esuna imágen de ejemplo"/>
-            <!-- Descripcion de la imagen -->
-            <h3>Elefantes</h3>
-            <a href=""><img src="./image/carrito.png" alt="" width="1rem" height="1rem" style="border-radius: 0%; border: 0ch;"></a>
-          </picture>
-          <!-- sector de la imagen del cuadro total -->
-          <div class="img-sec">
-            <img src="image/elefantes.jpg" alt="">
-          </div>
-          <!-- Descripcion del contenido -->
-          <div class="descrip">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat alias, dolore veniam accusamus exercitationem accusantium illum, libero quis assumenda itaque eligendi mollitia earum pariatur nihil odio quod? Expedita, incidunt sapiente.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sed modi at animi incidunt distinctio quidem qui quas. Culpa veniam voluptas, error vero quaerat accusamus ratione explicabo dicta aut est?</p>
-          </div>
-        </div>
-        <!-- Cajitas de compras 2 -->
-        <div class="boc">
-          <!-- imagen descritiva de encabezado -->
-          <picture>
-            <img src="image/abstracto.jpg" alt="Esuna imágen de ejemplo"/>
-            <!-- Descripcion de la imagen -->
-            <h3>Abstracto</h3>
-            <a href=""><img src="./image/carrito.png" alt="" width="1rem" height="1rem" style="border-radius: 0%; border: 0ch;"></a>
-          </picture>
-       <!-- sector de la imagen del cuadro total -->
-          <div class="img-sec">
-            <img src="image/abstracto.jpg" alt="">
-          </div>
-        <!-- Descripcion del contenido -->
-          <div class="descrip">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat alias, dolore veniam accusamus exercitationem accusantium illum, libero quis assumenda itaque eligendi mollitia earum pariatur nihil odio quod? Expedita, incidunt sapiente.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sed modi at animi incidunt distinctio quidem qui quas. Culpa veniam voluptas, error vero quaerat accusamus ratione explicabo dicta aut est?</p>
-          </div>
-        </div>
-        <!-- Cajitas de compras 3 -->
-        <div class="boc">
-          <!-- imagen descritiva de encabezado -->
-          <picture>
-            <img src="image/flores.jpg" alt="Esuna imágen de ejemplo"/>
-            <!-- Descripcion de la imagen -->
-            <h3>Flores</h3>
-            <a href=""><img src="./image/carrito.png" alt="" width="1rem" height="1rem" style="border-radius: 0%; border: 0ch;"></a>
-          </picture>
-          <!-- sector de la imagen del cuadro total -->
-          <div class="img-sec">
-            <img src="image/flores.jpg" alt="">
-          </div>
-          <!-- Descripcion del contenido -->
-          <div class="descrip">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat alias, dolore veniam accusamus exercitationem accusantium illum, libero quis assumenda itaque eligendi mollitia earum pariatur nihil odio quod? Expedita, incidunt sapiente.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sed modi at animi incidunt distinctio quidem qui quas. Culpa veniam voluptas, error vero quaerat accusamus ratione explicabo dicta aut est?</p>
-          </div>
-        </div>
-        <!-- Cajitas de compras 1 -->
-        <div class="boc">
-          <!-- imagen descritiva de encabezado -->
-          <picture>
-            <img src="image/arbol.jpg" alt="Esuna imágen de ejemplo"/>
-            <!-- Descripcion de la imagen -->
-            <h3>Arbol</h3>
-            <a href=""><img src="./image/carrito.png" alt="" width="1rem" height="1rem" style="border-radius: 0%; border: 0ch;"></a>
-          </picture>
-          <!-- sector de la imagen del cuadro total -->
-          <div class="img-sec">
-            <img src="image/arbol.jpg" alt="">
-          </div>
-          <!-- Descripcion del contenido -->
-          <div class="descrip">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat alias, dolore veniam accusamus exercitationem accusantium illum, libero quis assumenda itaque eligendi mollitia earum pariatur nihil odio quod? Expedita, incidunt sapiente.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sed modi at animi incidunt distinctio quidem qui quas. Culpa veniam voluptas, error vero quaerat accusamus ratione explicabo dicta aut est?</p>
-          </div>
-        </div>
-      </div> 
-    </main>
-  <!-- Footer o lugar de la parte final -->
-    <footer> 
-      <div class="footer">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 800px)" href="./css/desktop.css" />
+    <link rel="stylesheet" media="screen and (min-width: 550px)" href="./css/tablet.css" />
+    <title>Santiago Portafolio</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Santiago Gomez
+        </h1>
         <nav>
-          <li><a href="https://www.instagram.com/cuadro_a_cuadro/?hl=es-la" target="_blank"><img src="./image/insta.png" alt=""></a></li>
-          <li><a href="https://wa.link/wghett" target="_blank"><img src="./image/whats.png" alt=""></a></li>
-          <li><a href="https://mail.google.com/mail/u/2/h/a2xm298x5u7c/?zy=g&f=1" target="_blank"><img src="./image/gmail.png" alt=""></a></li>
+            <ul>
+                <li><a href="">About me</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Contact me</a></li>
+            </ul>
         </nav>
-      </div>
+    </header>
+    <main>
+        <div class="secion-logo">
+            <picture>
+                <img src="./images/brain.png" alt="">
+            </picture>
+        </div>
+        <div class="buscador">
+            <picture>
+                <img src="./images/obsidian.png" alt="">
+                <a href="">Zettelkasten</a>
+            </picture>
+            <picture>
+                <img src="./images/google-gris.png" alt="">
+                <a href="./google/index.html">Google Clon</a>
+            </picture>
+            <picture>
+                <img src="./images/pintura.png" alt="">
+                <a href="./cuadros-web/index.html">Web Paintings</a>
+            </picture>
+            <picture>
+                <img src="./images/wiki.png" alt="">
+                <a href="./wikiclon/index.html">WikiClon</a>
+            </picture>
+            <picture>
+                <img src="./images/formula.png" alt="">
+                <a href="./wikiclon/index.html">Web PricplesMat</a>
+            </picture>
+            <picture>
+                <img src="./images/calculadora.png" alt="">
+                <a href="./wikiclon/index.html">Mat Games</a>
+            </picture>
+            <picture>
+                <img src="./images/more.png" alt="">
+                <a href="./wikiclon/index.html">.... More</a>
+            </picture>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="">WhatsApp</a></li>
+                <img src="./images/metal.png" alt="">
+                <li><a href="">Instagram</a></li>
+            </ul>
+        </nav>
     </footer>
-  </body> 
+</body>
 </html>

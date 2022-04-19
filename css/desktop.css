@@ -1,0 +1,19 @@
+header h1 {
+    font-size: 4rem;
+}
+header nav ul li a {
+    font-size: 2rem;
+    margin: 0 1.5rem;
+}
+main .secion-logo picture img {
+    width: 35rem;
+    height: 32rem;
+}
+footer li a {
+    font-size: 1.5rem;
+}
+footer img {
+    width: 5rem;
+    height: 5rem;
+    padding: 0.5rem;
+}
